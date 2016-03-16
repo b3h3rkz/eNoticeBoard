@@ -77,13 +77,26 @@ WSGI_APPLICATION = 'NoticeBoard.wsgi.application'
 #AUTH_USER_MODEL = 'auth.User'
 # Database
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd6r2srtifmor9d',
+        'USER': 'jrbhqgvhfcqhfy',
+        'PASSWORD': 'dEtKKZSWe1peLzcup3nOj_Pn2w',
+        'HOST': 'ec2-107-21-219-142.compute-1.amazonaws.com',
+        'PORT': '5432',
+    }
+}
 
+"""
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+"""
 
 AUTH_PASSWORD_VALIDATORS = (
     {
