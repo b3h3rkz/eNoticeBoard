@@ -53,7 +53,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.security.SecurityMiddleware',
 )
 
-CORS_ORIGIN_ALLOW_ALL = True
+#CORS_ORIGIN_ALLOW_ALL = True
 MARKDOWN_EDITOR_SKIN = 'simple'
 
 ROOT_URLCONF = 'NoticeBoard.urls'
