@@ -3,6 +3,7 @@ automium-web==0.1.1
 dj-database-url==0.4.0
 Django==1.9.2
 django-braces==1.8.1
+django-cors-headers==1.1.0
 django-filter==0.13.0
 django-markdown==0.8.4
 django-oauth-toolkit==0.10.0
