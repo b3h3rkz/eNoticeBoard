@@ -11,7 +11,7 @@ class Board(models.Model):
     name = models.CharField(max_length=50, blank=False, unique=True)
     created = models.DateTimeField(auto_now_add=True)
     modified = models.DateTimeField(auto_now=True)
-    user = models.ForeignKey('auth.User', null=True, related_name='boards')
+    #user = models.ForeignKey('auth.User', null=True, related_name='boards')
 
     def __str__(self):
         return self.name
