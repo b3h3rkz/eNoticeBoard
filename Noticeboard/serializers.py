@@ -16,11 +16,11 @@ class BoardSerializer(serializers.HyperlinkedModelSerializer):
     """
      Class that serializes the boards model
     """
-    user = serializers.ReadOnlyField(source='user.username')
+    #user = serializers.ReadOnlyField(source='user.username')
 
     class Meta:
         model = Board
-        fields = ('id', 'name', 'notices', 'user',)
+        fields = ('id', 'name', 'notices',)
         depth = 1
 
 
