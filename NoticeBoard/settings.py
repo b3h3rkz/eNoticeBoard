@@ -39,6 +39,8 @@ INSTALLED_APPS = (
     'corsheaders',
     'django_markdown',
     'Noticeboard',
+    'material',
+    'material.admin',
 )
 
 MIDDLEWARE_CLASSES = (
